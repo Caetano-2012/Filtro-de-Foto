@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: url("image.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+h3 {
+    font-size: 25px !important;
+    color: whitesmoke !important;
+}
+
+.btn-success:hover {
+    background-color: rgb(6, 124, 6);
+    border: none;
+}
+
+canvas {
+    display: block;
+    margin: 60px auto;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 10px; 
+}
