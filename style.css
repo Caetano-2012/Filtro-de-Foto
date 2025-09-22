@@ -37,3 +37,8 @@ canvas {
     animation-iteration-count: infinite;
     border-radius: 10px; 
 }
+
+@keyframes example {
+    from {box-shadow: 1px 1px 38px deeppink }
+    to {box-shadow: 1px 1px 38px aquamarine}
+}
